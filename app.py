@@ -20,15 +20,17 @@ st.markdown("Predict **Global Sales** of a video game using Linear Regression")
 st.divider()
 
 # User Inputs
+rank = st.number_input("Game Rank", min_value=1, step=1)
 year = st.number_input("Release Year", min_value=1980, max_value=2025, step=1)
 platform = st.number_input("Platform (Encoded)", min_value=0)
 genre = st.number_input("Genre (Encoded)", min_value=0)
 publisher = st.number_input("Publisher (Encoded)", min_value=0)
 
-na_sales = st.number_input("NA Sales (in millions)", min_value=0.0, step=0.01)
-eu_sales = st.number_input("EU Sales (in millions)", min_value=0.0, step=0.01)
-jp_sales = st.number_input("JP Sales (in millions)", min_value=0.0, step=0.01)
-other_sales = st.number_input("Other Sales (in millions)", min_value=0.0, step=0.01)
+na_sales = st.number_input("NA Sales", min_value=0.0)
+eu_sales = st.number_input("EU Sales", min_value=0.0)
+jp_sales = st.number_input("JP Sales", min_value=0.0)
+other_sales = st.number_input("Other Sales", min_value=0.0)
+
 
 
 # Prediction
