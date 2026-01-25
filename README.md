@@ -26,7 +26,7 @@ This project analyzes sales data from **1980 to 2020** and builds a regression m
 - **Source:** Kaggle – Video Game Sales Dataset  
 - **Records:** 16,598 games  
 - **Time Span:** 1980–2020  
-- **Target Variable:** Global_Sales (in million units)
+- **Target Variable:** Global_Sales (in million units) 
 
 Main features include platform, genre, release year, and regional sales (NA, EU, JP, Others).
 
