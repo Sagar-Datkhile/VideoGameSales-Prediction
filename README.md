@@ -100,6 +100,58 @@ The model shows **excellent accuracy** on unseen test data.
 
 ---
 
+## ▶️ Steps to Use the Model
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/video-game-sales-prediction.git
+cd video-game-sales-prediction
+```
+
+### Step 2: Install Required Libraries
+Ensure Python is installed, then run:
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn streamlit
+```
+
+### Step 3: Run the Notebook
+- Open the .ipynb file in Jupyter Notebook or Google Colab
+- Run all cells to load data, preprocess it, and train the model
+
+### Step 4: Train and Save the Model
+After training, the model is saved as:
+
+```bash
+text
+model.pkl
+```
+
+### Step 5: Load the Model for Prediction
+```bash
+python
+import pickle
+
+model = pickle.load(open("model.pkl", "rb"))
+prediction = model.predict(input_data)
+print(prediction)
+```
+
+### Step 6: Deploy the Model (Optional)
+- Push the complete repository to GitHub
+- Create a UI using Streamlit
+- Run or deploy the app
+
+```bash
+streamlit run app.py
+```
+
+### Step 7: Use the Application
+- Enter game details such as platform, genre, and regional sales
+- Get predicted Global Video Game Sales output
+- You can copy this entire block and paste it directly into your `README.md` file!
+
+---
+
 ## 📌 Conclusion
 
 This project highlights how **simple regression models**, combined with proper preprocessing and analysis, can deliver highly accurate predictions and valuable business insights in the gaming industry.
