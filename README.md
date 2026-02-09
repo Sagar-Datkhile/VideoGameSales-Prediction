@@ -112,6 +112,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn streamlit
 ```
 
 ### Step 3: Run the Notebook
+- [Global Video Game Sales](https://colab.research.google.com/drive/1PJ2BAUBMcLGMfS2fpGls-YmjSRT7P8uV?usp=sharing)
 - Open the .ipynb file in Jupyter Notebook or Google Colab
 - Run all cells to load data, preprocess it, and train the model
 
