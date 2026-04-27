@@ -1,14 +1,11 @@
-# 🎮 Predictive Analysis of Global Video Game Sales (Linear Regression)
-
-This project applies **Multiple Linear Regression** to predict **global video game sales** using historical industry data.  
-The goal is to demonstrate how data-driven models can help publishers and developers make informed business decisions.
-
----
+# 🧑‍💻 Predicting Global Video Game Sales Using Data-Driven Insights  
 
 ## 📌 Project Summary
 
 The video game industry is highly competitive, and predicting a game's sales success is challenging.  
 This project analyzes sales data from **1980 to 2020** and builds a regression model to estimate **global sales** based on regional performance, platform, genre, and release information.
+
+This project applies **Multiple Linear Regression** to predict **global video game sales** using historical industry data. The goal is to demonstrate how data-driven models can help publishers and developers make informed business decisions.
 
 ---
 
@@ -115,6 +112,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn streamlit
 ```
 
 ### Step 3: Run the Notebook
+- [Global Video Game Sales](https://colab.research.google.com/drive/1PJ2BAUBMcLGMfS2fpGls-YmjSRT7P8uV?usp=sharing)
 - Open the .ipynb file in Jupyter Notebook or Google Colab
 - Run all cells to load data, preprocess it, and train the model
 
@@ -158,4 +156,8 @@ This project highlights how **simple regression models**, combined with proper p
 
 ---
 
+🔗 **LinkedIn Project Post:**  
+👉 [View detailed explanation on LinkedIn](https://www.linkedin.com/posts/sagardatkhile_machinelearning-datascience-linearregression-activity-7421072631048699904-XX0Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEIgH8YBwqEgXX93z8v1Q9vYXa6WfW0KdIg)
+
+---
 ⭐ If you like this project, consider starring the repository!
